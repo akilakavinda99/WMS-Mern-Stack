@@ -1,0 +1,39 @@
+.btnq {
+	background: transparent;
+	color: inherit;
+    width: 220px;
+    height: 50px;
+	text-decoration: none;
+	border: 0;
+	transition: all 200ms ease-in;
+	display: inline-block;
+	
+	&-default {
+		color: black;
+		font-weight: bold;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		border: 2px solid black;
+		padding: 0px 0px;
+		
+		&:hover {
+			background: rgb(65, 65, 65);
+			color: white;
+            font-size: 18px;
+            width: 225px;
+            height: 55px;
+		}
+	}
+	
+	&--skew {
+		transform: skew(-10deg);
+		
+		> span {
+			transform: skew(10deg);
+			display: inline-block;
+		}
+	}
+}
+
+
+

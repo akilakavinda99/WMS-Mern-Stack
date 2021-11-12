@@ -1,0 +1,17 @@
+.damchart{
+  background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);
+  width:640px; 
+  height:480px;
+}
+
+
+.damchartlft{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  float: top;
+  padding-right: 100px;
+  position:absolute;
+ top: 90px;
+ left: 420px;
+}

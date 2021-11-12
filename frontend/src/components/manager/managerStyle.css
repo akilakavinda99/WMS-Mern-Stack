@@ -1,0 +1,54 @@
+.SideBardam{
+  height: 100vh;
+  width: 250px;
+  background-color:#3B3B3B;
+}
+
+.SideBarListdam{
+  height: auto;
+  width: 100%;
+  padding: 0;
+  padding-top: 5%;
+}
+
+.SideBarListdam .row{
+  width: 100%;
+  height: 50px;
+  
+  list-style-type:none;
+  margin: 0%;
+  display: flex;
+  flex-direction:row;
+  flex-flow: row;
+ color: white;
+ align-items: center;
+ 
+
+
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.SideBarListdam #active{
+  background-color: black;
+}
+
+
+.SideBarListdam .row:hover{
+  cursor: pointer;
+  background-color: black;
+}
+
+.row #icon{
+  flex: 30%;
+
+}
+
+#buttondamru{
+  left: 30px;
+  position: absolute;
+  top: 580px;
+  left: 40px;
+  width: 150px;
+}
+

@@ -1,0 +1,32 @@
+.table-head-align{
+    text-align: center;
+}
+.btn-view{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.title-report{
+    margin-bottom: 30px;
+}
+
+.column-report-attendance{
+  
+    margin-left: 500px;
+    margin-bottom: 10px;
+    width: 19%;
+    padding: 5px;
+}
+
+.column-view-labour{
+    
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 18%;
+    padding: 5px;
+    
+  }
+
+.attendance-table{
+    margin-top: 20px;
+}

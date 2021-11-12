@@ -1,0 +1,186 @@
+/* .da1card{
+  justify-self: center;
+  width: 700px;
+  float: right;
+  
+  flex: 100%;
+  top: 10px;
+  border: none;
+  
+  
+  
+  
+}
+.da1card:hover {
+  box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+}
+
+.da1lft{
+ display: flex;
+ flex-direction: column;
+ float: right;
+ float: top;
+ padding-right: 100px;
+ position:absolute;
+top: 50px;
+left: 450px;
+
+
+
+} 
+.buttonn{
+  display: flex;
+   flex-direction: column;
+   float: left;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+ top: 20px;
+ left: 775px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+
+
+} */
+@media only screen and (max-width: 600px) {
+  .da1card {
+    background: white;
+    justify-self: center;
+    width: 300px;
+    float: right;
+    
+    flex: 100%;
+    top: 10px;
+    border: none;
+  }
+  .da1card:hover {
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  
+  .da1lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+  top: 20px;
+  left: 120px;
+  
+  
+  
+  } 
+  
+}
+@media only screen and (min-width: 600px) {
+  .da1card {
+    background: white;
+    justify-self: center;
+    width: 400px;
+    float: right;
+    
+    flex: 100%;
+    top: 10px;
+    border: none;
+  }
+  .da1card:hover {
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  
+  .da1lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+  top: 20px;
+  left: 150px;
+  
+  
+  
+  } 
+  
+}
+
+@media only screen and (min-width: 768px) {
+  .da1card {
+    background: white;
+    justify-self: center;
+    width: 500px;
+    float: right;
+    flex: 100%;
+    top: 10px;
+    border: none;
+  }
+  .da1card:hover {
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  
+  .da1lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+  top: 40px;
+  left: 200px;
+  
+  
+  
+  } 
+} 
+
+@media only screen and (min-width: 992px) {
+  .da1card {
+    background: white;
+    justify-self: center;
+    width: 600px;
+    float: right;
+    flex: 100%;
+    top: 10px;
+    border: none;
+  }
+  .da1card:hover {
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  
+  .da1lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+  top: 40px;
+  left: 320px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .da1card {
+    background: white;
+    justify-self: center;
+    width: 700px;
+    float: right;
+    flex: 100%;
+    top: 10px;
+    border: none;
+  }
+  .da1card:hover {
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  
+  .da1lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+  top: 40px;
+  left: 400px;
+  }
+}

@@ -1,0 +1,45 @@
+.addcard{
+    width: 1000px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+
+  }
+  
+  .lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100x;
+   position:absolute;
+  top: 50px;
+  left: 400px;
+  
+  }
+  
+  .form-label{
+    margin-top: 10px;
+    padding-bottom: 0px;
+    font-weight: 600;
+  }
+  .col-md-6{
+    padding-left: 50px;
+  }
+  
+  .btn-dark{
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  .h2-head{
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .requied-warn{
+    color: crimson;
+    margin-bottom: 0px;
+  }

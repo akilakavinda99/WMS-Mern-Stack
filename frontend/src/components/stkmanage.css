@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.yccard {
+  width: 900px;
+  float: right;
+
+  flex: 50%;
+  top: 20px;
+  border: none;
+}
+
+.yctitle {
+  text-align: center;
+}
+.yclft {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 50px;
+  left: 400px;
+}
+
+.ychead {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  padding-left: 50px;
+  font-family: "Raleway";
+}
+
+.ycbuttonn {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 1250px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+
+  /* padding-left: 50px; */
+}
+.yccontent-box1 {
+  border: 1px solid rgba(194, 194, 194, 0.198);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px rgba(119, 119, 119, 0.281);
+  width: 900px;
+
+  bottom: 0%;
+}
+
+.ycbtn-success {
+  border-radius: 12px;
+}
+
+.yctxt {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 1250px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 35px;
+}
+
+.yctxt1 {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 1350px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 35px;
+}
+
+.ycnum {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 670px;
+  padding-right: 10px;
+  padding-bottom: 13px;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 35px;
+}
+.yctotal-inventory-display {
+  padding-right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 1450px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+#total-inventory-display-total {
+  font-size: 30px;
+}
+#total-inventory-display-text {
+  font-size: 13px;
+  color: #707070;
+  font-family: "Raleway";
+}
+
+.ycnum2 {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 720px;
+  padding-right: 10px;
+  padding-bottom: 13px;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 35px;
+}
+.ycnum3 {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 690px;
+  padding-right: 10px;
+  padding-bottom: 13px;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 35px;
+}
+
+.ycnum4 {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 800px;
+  padding-right: 10px;
+  padding-bottom: 13px;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 35px;
+}
+
+.ycstyle {
+  background: #ffffff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px 0 rgba(70, 76, 79, 0.2);
+  width: 1640px;
+  height: 480px;
+}

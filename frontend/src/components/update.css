@@ -1,0 +1,22 @@
+.content-box{
+    border: 1px solid rgba(194, 194, 194, 0.198);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px rgba(119, 119, 119, 0.281);
+    width: 850px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bi-x-circle-fill{
+    float: right;
+    padding-left: 800px;
+    font-size: 2rem;
+   top: 0px;
+   position: absolute;
+    
+}
+
+.bi-x-circle-fill:hover{
+    color: rgb(255, 0, 55);
+}
+

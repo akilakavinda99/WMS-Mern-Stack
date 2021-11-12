@@ -1,0 +1,103 @@
+
+
+/* .eye{
+  position: absolute;
+  top: 66%;
+  right: 16%;
+} */
+.eye:hover {
+  color: #0400f7;
+  cursor: pointer;
+}
+
+/* .pass-wrapper{
+  width: 600px;
+} */
+
+.dlogincard{
+  background-color: white;
+  width: 1100px;
+  /* float: right; */
+  
+  flex: 50%;
+  top: 10px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);  
+}
+/* .dlogincard:hover {
+  box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+} */
+.dlogincard2{
+  background-color: white;
+  /* border-radius: 20px;
+  border-color: gray;
+  border-style: inset; */
+  width: 500px;
+  flex: auto;
+  margin-left: 200px;
+  /* margin-right: auto; */
+}
+.loginName{
+  padding-bottom: 20px;
+  margin-left: 400px;
+}
+.dlogincard3{
+  background-color: white;
+  width: 400px;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  /* position: relative;
+  display: flex; */
+}
+
+.dloginlft{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ float: top;
+ /* padding-right: 100px; */
+ position:relative;
+top: 100px;
+margin-left: auto;
+margin-right: auto;
+
+} 
+
+.column-loginimg{
+    
+  /* float: left; */
+  margin-left: 5px;
+  margin-bottom: 10px;
+  width: 17%;
+  padding: 0px;
+  margin-top: 70px;
+  margin-left: 130px;
+}
+
+.column-loginbody{
+  
+  margin-left: 30px;
+  margin-bottom: 10px;
+  width: 17%;
+  padding: 5px;
+}
+
+.column-hrline{
+  margin-bottom: 10px;
+  width: 0px;
+  padding: 5px;
+}
+
+.bodylogin{
+  background-image: url(loginback.png);
+  background-repeat: no-repeat;
+}
+
+.vl{
+  border-left: 2px solid black;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 30px;
+}

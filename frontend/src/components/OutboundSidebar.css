@@ -1,0 +1,76 @@
+.AmSideBar{
+    height: 875px;
+    width: 300px;
+    background: rgb(46,45,45);
+    background: linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(73,73,83,1) 45%, rgba(100,100,102,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.AmSideBarList{
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    padding-top: 90%;
+}
+
+.AmSideBarList .row{
+    width: 100%;
+    height: 75px;
+    
+    list-style-type:none;
+    margin: 0%;
+    display: flex;
+    flex-direction:row;
+    flex-flow: row;
+    color: white;
+    align-items: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.AmSideBarList #active{
+    background-color: #41af8c;
+}
+
+.AmSideBarList .row:hover{
+    cursor: pointer;
+    background-color: #3b59d9;
+}
+
+.row #icon{
+    flex: 30%;
+
+}
+
+.legalq {
+    font-size: 0.9rem;
+    color: #e6e5e5;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 17.7rem;
+}
+
+.himg{
+    position: absolute;
+    padding-top: 0%;
+    left: 45px;
+    opacity: 60%;
+}
+
+.h4{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    opacity: 100%;
+    color: rgb(223, 223, 223);
+}
+
+.lg{
+    padding-left: 30px;
+    padding-top: 0px;
+}
+#Ambutton{
+    position: absolute;
+    top: 830px;
+    left: 100px;
+    width: 100px;
+  }

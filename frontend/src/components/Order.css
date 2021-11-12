@@ -1,0 +1,108 @@
+.vcard{
+    width: 900px;
+    height:900px;
+    float: right;
+    
+    flex: 50%;
+    top: 50px;
+    border: none;
+}
+ 
+.vcard1{
+
+  width: 900px;
+  height:500px;
+  overflow-y: scroll;
+}
+
+.vcard2{
+  width: 1000px;
+  height:500px;
+  overflow-y: scroll;
+}
+
+.vcard3{
+  width: 900px;
+  height:0;
+  
+}
+
+.vcard4{
+  width: 1000px;
+  height:250px;
+  overflow-y: scroll;
+}
+
+.vcard5{
+  width: 1000px;
+  height:500px;
+  overflow-y: scroll;
+}
+    
+  
+.vlft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+ top: 100px;
+ left: 410px;
+  
+} 
+
+.vlft1{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  float: top;
+  padding-right: 100px;
+  position:absolute;
+top: 60px;
+left: 410px;
+ 
+} 
+
+.vlft2{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  float: top;
+  padding-right: 100px;
+  position:absolute;
+top: 20px;
+left: 410px;
+ 
+} 
+
+.vlft3{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  float: top;
+  position:absolute;
+top: 70px;
+left: 700px;
+ 
+}
+
+.vlft4{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  float: top;
+  padding-right: 0px;
+  position:absolute;
+top: 50px;
+left: 1300px;
+ 
+}
+
+h5 {
+  text-align: right;
+  color: green;
+  padding-top: 30px;
+}
+
+

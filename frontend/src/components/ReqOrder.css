@@ -1,0 +1,55 @@
+.vcard{
+    width: 1200px;
+    float: left;
+    left: -400px;
+    flex: 50%;
+    top: 75px;
+    border: none;
+
+}
+
+
+.cardsc{
+
+    overflow-y: scroll;
+    width: 1250px;
+    height: 600px;
+
+  }
+
+.bg{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-simple-cosmetics-recruiting-agent-poster-background-template-image_135759.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+
+}
+
+.lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+   top: 20px;
+   left: 500px;
+
+} 
+.head{
+  display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+   top: 15px;
+   left: 250px;
+   padding-left: 50px;
+}
+
+.inner
+{
+    display: inline-block;
+    padding-right: 10px;
+}

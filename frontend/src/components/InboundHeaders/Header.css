@@ -1,0 +1,81 @@
+.SideBarAK{
+    height: 100vh;
+    width: 250px;
+    background-color:#3B3B3B;
+}
+
+@media screen and (max-width: 600px){
+    .SideBarAK{
+      
+      width: 40px;
+  
+    }
+}
+
+.SideBarListAK{
+    height: auto;
+    width: 100%;
+    padding: 0;
+    padding-top: 5%;
+}
+
+/* @media screen and (max-width: 600px){
+    .SideBarList{
+      
+      width: 100px;
+  
+    }
+} */
+
+.SideBarListAK .row{
+    width: 100%;
+    height: 50px;
+    
+    list-style-type:none;
+    margin: 0%;
+    display: flex;
+    flex-direction:row;
+    flex-flow: row;
+   color: white;
+   align-items: center;
+   
+
+
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.SideBarListAK #active{
+    background-color: black;
+}
+
+
+.SideBarListAK .row:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.row #icon{
+    flex: 30%;
+
+}
+
+.btn-secondary{
+    left: 30px;
+    position: absolute;
+    top: 580px;
+    left: 40px;
+    width: 150px;
+}
+
+.btn-secondary:hover{
+    color: rgba(0, 255, 200, 0.055);
+}
+
+@media screen and (max-width: 600px){
+    .btn-secondary{
+      
+    display: none;
+  
+    }
+}

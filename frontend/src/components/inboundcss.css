@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.body{
+  height: 100%;
+}
+.cardAK{
+    width: 900px;
+    float: right;
+    
+    flex: 50%;
+    top: 20px;
+    border: none;
+    
+    
+    
+    
+}
+
+@media  screen and (max-width: 600px){
+  .body{
+    
+   height: 50%;
+
+  }
+  
+}
+
+@media  screen and (max-width: 600px){
+  .cardAK{
+    
+    width: 100px;
+
+  }
+  
+}
+.lftAK{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+ top: 50px;
+ left: 400px;
+  
+
+  
+} 
+
+@media  screen and (max-width: 600px){
+  .lftAK{
+    
+   left: 200px;
+
+  }
+  
+}
+
+
+.headAK{
+  display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+ top: 15px;
+ left: 250px;
+ padding-left: 50px;
+ font-family: 'Raleway';
+}
+
+.buttonn{
+  display: flex;
+   flex-direction: column;
+   float: left;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+ top: 20px;
+ left: 1250px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+ border-radius: 12px
+
+
+ /* padding-left: 50px; */
+}
+.content-box1{
+  border: 1px solid rgba(194, 194, 194, 0.198);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px rgba(119, 119, 119, 0.281);
+  width: 900px;
+  
+ bottom: 0%;
+  
+}
+
+.btn-success {
+  border-radius: 12px
+}
+
+.txtAK{
+  display: flex;
+   flex-direction: column;
+   float: left;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+ top: 20px;
+ left: 1350px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+ border-radius: 12px;
+ font-family: 'Roboto';
+ font-size: 35px;
+
+
+}
+.num{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position:absolute;
+top: 20px;
+left: 670px;
+padding-right: 10px;
+padding-bottom: 13px;
+border-radius: 12px;
+font-family: 'Roboto';
+font-size: 35px;
+
+
+
+
+   
+
+}
+.total-inventory-display {
+  padding-right: 100px;
+  position:absolute;
+top: 20px;
+left: 1450px;
+padding-right: 10px;
+padding-bottom: 10px;
+border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  line-height:20px;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+#total-inventory-display-total{
+  font-size: 30px;
+}
+#total-inventory-display-text{
+  font-size: 13px;
+  color: #707070;
+  font-family: 'Raleway';
+}
+
+.num2AK{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position:absolute;
+top: 20px;
+left: 720px;
+padding-right: 10px;
+padding-bottom: 13px;
+border-radius: 12px;
+font-family: 'Roboto';
+font-size: 35px;
+}
+.num3{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position:absolute;
+top: 20px;
+left: 690px;
+padding-right: 10px;
+padding-bottom: 13px;
+border-radius: 12px;
+font-family: 'Roboto';
+font-size: 35px;
+
+
+
+
+   
+
+}
+
+.style{
+  background: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);
+  width:1640px;
+  height: 480px;
+  
+}
+
+.scroll{
+  height:550px;
+  overflow-y: scroll;
+}
+.head1{
+  display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+ top: 15px;
+ left: 250px;
+ padding-left: 50px;
+ font-family: 'Raleway';
+ 
+
+}
+.alert {
+  bottom: 35px;
+  left: 900px;
+
+
+/* top: 15px; */
+  padding: 5px;
+  
+  color: rgb(212, 17, 17);
+  width: 95px;
+  opacity: 0.8;
+  border-radius: 20px;
+  
+  font-weight: bold;
+  
+}
+#bord{
+  border: solid;
+  animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
+}
+
+.h1tag{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bb{
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  left: 290px;
+ 
+  position: relative;
+  
+ 
+ 
+}
+
+#bbb{
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  left: 290px;
+  position: relative;
+  
+ 
+ 
+}
+
+#sbm{
+  border-radius: 40px;
+}

@@ -1,0 +1,70 @@
+.card-view{
+    width: 950px;
+    float: right;
+    flex: 60%;
+    top: 20px;
+    border:thick;
+    padding-top: 20px;
+  }
+  
+  
+  .left-labour-view{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+  top: 20px;
+  left: 300px;
+  } 
+  
+  
+  .title-list{
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .table-data-text{
+    font-weight: lighter;
+  }
+
+.column-add-labour{
+    
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 18%;
+    padding: 5px;
+    
+  }
+
+.coloumn-button{
+  margin-bottom: 10px;
+    width: 17%;
+    padding: 5px;
+    
+}
+
+.addnew{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.form-control-searchbar{
+  width:70%;
+  margin-top: 10px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+}
+
+.column-report{
+  
+    margin-left: 360px;
+    margin-bottom: 10px;
+    width: 17%;
+    padding: 5px;
+}
+
+
+
+  

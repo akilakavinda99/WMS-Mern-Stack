@@ -1,0 +1,45 @@
+.card{
+    justify-self: center;
+    width: 700px;
+    float: right;
+    
+    flex: 100%;
+    top: 10px;
+    border: none;
+    
+    
+    
+    
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  
+  .lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+  top: 50px;
+  left: 450px;
+  
+  
+  
+  } 
+  .buttonn{
+    display: flex;
+     flex-direction: column;
+     float: left;
+     float: top;
+     padding-right: 100px;
+     position:absolute;
+   top: 20px;
+   left: 775px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+  
+  
+   /* padding-left: 50px; */
+  }

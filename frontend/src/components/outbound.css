@@ -1,0 +1,372 @@
+.cardq{
+    width: 1200px;
+    float: right;
+    flex: 50%;
+    padding-top: 70px;
+    border: none;
+    
+}
+
+.carde{
+  width: 1200px;
+  height: 685px;
+  float: right;
+  border: none;
+  overflow-y: scroll;
+  
+}
+
+.card2{
+    
+    width: 1200px;
+    height: 20px;
+    float: center;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    
+}
+
+.cardadd{
+    
+    width: 1200px;
+    height: 375px;
+    float: center;
+    flex: 50%;
+    top: 75px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: none;
+    
+}
+
+.cardadd2{
+    
+    width: 1200px;
+    height: 400px;
+    float: center;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    
+    
+}
+
+.cardadd2{
+    
+  width: 1200px;
+  height: 400px;
+  float: center;
+  flex: 50%;
+  top: 75px;
+  border: none;
+  
+  
+}.cardaddq{
+    
+  width: 1250px;
+  height: 400px;
+  float: center;
+  flex: 50%;
+  top: 75px;
+  border: none;
+  overflow-y: scroll;
+    overflow-x: hidden;
+  
+  
+}
+
+.cardadd3{
+    
+    width: 1250px;
+    height: 400px;
+    float: center;
+    padding-top: 70px;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    
+    
+}
+
+.card3{
+    
+    
+    width: 620px;
+    height:350px;
+    float: left;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    
+}
+
+.card4{
+    overflow-y: scroll;
+    width: 620px;
+    height:350px;
+    float: right;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    
+}
+
+.cardsc{
+    
+    overflow-y: scroll;
+    width: 1250px;
+    height: 600px;
+    background: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .cardsc:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  
+  
+  }
+
+  .cardscc{
+
+    overflow-y: scroll;
+    width: 1250px;
+    height: 300px;
+  
+  }
+
+.lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-left: 100px;
+   position:absolute;
+   top: 20px;
+   left: 500px;
+  
+} 
+
+.lft2{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+    top: 100px;
+    left: 500px;
+   
+ } 
+
+.head{
+  display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+   top: 15px;
+   left: 250px;
+   padding-left: 50px;
+}
+
+.inner
+{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.btn2{
+    top: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.btn23{
+  top: 0px;
+  
+  position: absolute;
+  left: 210px;
+}
+
+.btn3{
+  top: 2px;
+  right: 10px;
+  float: right;
+  right: 130px;
+}
+
+.btn4{
+  top: 200px;   
+  position: absolute;
+  right: 50px;
+}
+
+.box {
+    position: relative;
+    height:  40px;
+    width: 400px;
+    display: block;
+    background: white;
+  }
+  
+  .glowing::before{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #13ff13, #ad27ad, #bd2681, #6512b9, #ff3300de, #5aabde);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: glower 20s linear infinite;
+  }
+  
+  @keyframes glower {
+    0% {
+      background-position: 0 0;
+    }
+    
+    50% {
+      background-position: 400% 0;
+    }
+    
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+  .box2 {
+    width: 620px;
+    height:350px;
+    float: left;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    background: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .box2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+  
+  .box3 {
+    width: 620px;
+    height:350px;
+    float: right;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    background: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .box3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+
+  .box1 {
+    width: 1250px;
+    height: 440px;
+    float: center;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    background: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .box1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+
+  .boxi {
+    width: 1300px;
+    height: 940px;
+    position: absolute;
+    float: center;
+    flex: 50%;
+    top: 75px;
+    border: none;
+    background: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .boxi:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+
+  .glow-on-hover {
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(103,179,255);
+    background: linear-gradient(157deg, rgba(103,179,255,1) 0%, rgba(198,247,211,1) 51%, rgba(177,219,255,1) 100%);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.back{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}

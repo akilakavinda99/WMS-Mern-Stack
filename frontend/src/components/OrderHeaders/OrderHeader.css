@@ -1,0 +1,66 @@
+.PSideBar{
+  height: 1050px;
+  width: 300px;
+  background: rgb(46,45,45);
+  background: linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(73,73,83,1) 45%, rgba(100,100,102,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.PSideBarList{
+  height: auto;
+  width: 100%;
+  padding: 0;
+  padding-top: 30%;
+}
+
+.PSideBarList .row{
+  width: 100%;
+  height: 95px;
+  
+  list-style-type:none;
+  margin: 0%;
+  display: flex;
+  flex-direction:row;
+  flex-flow: row;
+  color: white;
+  align-items: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.PSideBarList #active{
+  background-color: #41af8c;
+}
+
+.PSideBarList .row:hover{
+  cursor: pointer;
+  background-color: #3b59d9;
+}
+
+.row #icon{
+  flex: 30%;
+
+}
+
+.Plegal {
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+  padding: 2.5rem;
+  padding-top: 6rem;
+}
+
+.Plegal1 {
+  font-size: 1.5rem;
+  color: #EE5F41 ;
+  text-align: center;
+  padding: 2.5rem;
+  padding-top: 3rem;
+}
+
+#Pbutton{
+  left: 30px;
+  position: absolute;
+  top: 875px;
+  left: 100px;
+  width: 100px;
+}

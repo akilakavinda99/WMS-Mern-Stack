@@ -1,0 +1,283 @@
+.allsupcard1{
+  width: 900px;
+  float: right;
+  flex: 60%;
+  top: 10px;
+  border:thin;
+}
+.allsupcard1:hover {
+  box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+}
+
+.dacard2{
+  height:350px;
+  overflow-y: scroll;
+}
+
+.refresh{
+  color:blue;
+}
+
+.allsuplft1{
+ display: flex;
+ flex-direction: column;
+ float: right;
+ float: top;
+ padding-right: 100px;
+ position:absolute;
+top: 50px;
+left: 100px;
+
+
+
+} 
+.reportbtn{
+  display: flex;
+   flex-direction: column;
+   float: left;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+ top: 100px;
+ left: 755px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+
+ /* padding-left: 50px; */
+}
+.count{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  float: top;
+  padding-right: 100px;
+  position:absolute;
+top: 160px;
+left: 770px;
+padding-right: 10px;
+padding-bottom: 10px;
+
+}
+
+h6{
+  background-color: rgb(102, 204, 255);
+}
+.damfont{
+  font-weight: lighter;
+}
+@media only screen and (max-width: 600px) {
+  .allsupcard1 {
+    background: white;
+    width: 350px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  .allsuplft1{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: -180px;
+   } 
+   .reportbtn{
+    display: flex;
+     flex-direction: column;
+     float: left;
+     float: top;
+     padding-right: 100px;
+     position:absolute;
+   top: 50px;
+   left: 190px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+  
+   /* padding-left: 50px; */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .allsupcard1 {
+    background: white;
+    width: 400px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  .allsuplft1{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: -100px;
+   } 
+   .reportbtn{
+    display: flex;
+     flex-direction: column;
+     float: left;
+     float: top;
+     padding-right: 100px;
+     position:absolute;
+   top: 50px;
+   left: 250px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+  
+   /* padding-left: 50px; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .allsupcard1 {
+    background: white;
+    width: 460px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  .allsuplft1{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: -50px;
+   } 
+   .reportbtn{
+    display: flex;
+     flex-direction: column;
+     float: left;
+     float: top;
+     padding-right: 100px;
+     position:absolute;
+   top: 50px;
+   left: 300px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+  
+   /* padding-left: 50px; */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .allsupcard1 {
+    background: white;
+    width: 580px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  .allsuplft1{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: 45px;
+   } 
+   .reportbtn{
+    display: flex;
+     flex-direction: column;
+     float: left;
+     float: top;
+     padding-right: 100px;
+     position:absolute;
+   top: 70px;
+   left: 420px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+  
+   /* padding-left: 50px; */
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .allsupcard1 {
+    background: white;
+    width: 809px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  .allsuplft1{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: 45px;
+   } 
+   .reportbtn{
+    display: flex;
+     flex-direction: column;
+     float: left;
+     float: top;
+     padding-right: 100px;
+     position:absolute;
+   top: 120px;
+   left: 640px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+  
+   /* padding-left: 50px; */
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .allsupcard1 {
+    background: white;
+    width: 900px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  .allsuplft1{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: 100px;
+   } 
+   .reportbtn{
+    display: flex;
+     flex-direction: column;
+     float: left;
+     float: top;
+     padding-right: 100px;
+     position:absolute;
+   top: 110px;
+   left: 730px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+  
+   /* padding-left: 50px; */
+  }
+}
+

@@ -1,0 +1,159 @@
+
+.damrureq{
+  color:red;
+  font-size: medium;
+}
+
+
+.eye1:hover {
+  color: #0058fc;
+  cursor: pointer;
+}
+
+.pswid{
+  width: 305px;
+}
+
+#regreset{
+  left: 100px;
+  position:absolute;
+
+}
+
+.btncancel{
+  left: 100px;
+  position:absolute;
+  top: 490px;
+}
+
+@media only screen and (max-width: 600px) {
+  .addsupcard {
+    background: whitesmoke;
+    width: 350px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+
+  .addsuplft{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: 60px;
+   } 
+   .dasupscroll{
+    height: 400px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .addsupcard {
+    background: whitesmoke;
+    width: 350px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+
+  .addsuplft{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: 70px;
+   } 
+   .dasupscroll{
+    height: 400px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .addsupcard {
+    background: whitesmoke;
+    width: 450px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  .addsuplft{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: 250px;
+   } 
+   .dasupscroll{
+    height: 400px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .addsupcard {
+    background: whitesmoke;
+    width: 550px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+  .addsuplft{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 50px;
+   left: 350px;
+   }
+   .dasupscroll{
+    height: 400px;
+    overflow-y: scroll;
+  } 
+}
+
+@media only screen and (min-width: 1200px) {
+  .addsupcard {
+    background: white;
+    width: 810px;
+    float: right;
+    flex: 50%;
+    top: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.2);
+  }
+
+  .addsuplft{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+   top: 10px;
+   left: 450px;
+   } 
+   .dasupscroll{
+    height: 470px;
+  }
+}

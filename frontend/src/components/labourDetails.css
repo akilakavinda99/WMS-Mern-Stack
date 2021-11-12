@@ -1,0 +1,18 @@
+.card-profile{
+    width: 1000px;
+    float: right;
+    flex: 50%;
+    top: 50px;
+  }
+  
+  .lft{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   float: top;
+   padding-right: 100px;
+   position:absolute;
+  top: 50px;
+  left: 400px;
+  
+  }
